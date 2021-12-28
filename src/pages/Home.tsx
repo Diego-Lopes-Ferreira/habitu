@@ -1,9 +1,15 @@
-import { Text, View } from 'react-native';
+import Box from '../components/Box';
+import Text from '../components/Text';
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home Page yay</Text>
-    </View>
+    <Box
+      flex={1}
+      alignItems="center"
+      backgroundColor="mainBackground">
+      <Text
+        color="mainForeground"
+        variant="header">Home Page yay</Text>
+    </Box>
   );
 }
