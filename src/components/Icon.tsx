@@ -1,7 +1,7 @@
 import { Feather } from '@expo/vector-icons'; 
 import gruvbox from '../theme/colors';
 
-interface IconProps {
+export interface IconProps {
   name?: "link" | 
   "search" |
   "image" |
