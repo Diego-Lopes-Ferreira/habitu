@@ -1,5 +1,5 @@
 import { createTheme } from "@shopify/restyle";
-import gruvbox from './colors';
+import gruvbox from "./colors";
 
 const appDarkTheme = createTheme({
   colors: {
@@ -18,6 +18,12 @@ const appDarkTheme = createTheme({
   textVariants: {
     header: {
       fontSize: 24,
+    },
+    bodyText: {
+      fontSize: 16,
+      width: '100%',
+      paddingVertical: 's',
+      paddingHorizontal: 'm',
     },
   },
 });
