@@ -1,25 +1,24 @@
-import { TouchableOpacity } from "react-native";
 import Box from "../../components/Box";
 import Text from "../../components/Text";
-import Icon from "../../components/Icon";
 import ButtonPrimaryCallback from "../../components/ButtonPrimaryCallback";
 
-export default function Today({ navigation }: any) {
+export default function EditHabit({ navigation }: any) {
+  function handleCreate() {
+    // TODO(Diego): set the context
+    // TODO(Diego): reset navigation to Home
+  }
   return (
     <Box flex={1} alignItems="center" backgroundColor="mainBackground">
       <Text color="mainForeground" variant="header">
-        Today
+        Habit [Habit Name]
       </Text>
       <Text color="mainForeground" variant="bodyText">
-        Shows every open task, every open checklist and all current habits
-      </Text>
-      <Text color="mainForeground" variant="bodyText">
-        Plus Button: Create Habit, Create task, Open Checklist
+        edit all the habit things ...
       </Text>
       <ButtonPrimaryCallback
-        text="Create new Thing"
+        text="Create"
         iconName="plus"
-        callback={() => navigation.navigate("CreateType")}
+        callback={handleCreate}
       />
     </Box>
   );
