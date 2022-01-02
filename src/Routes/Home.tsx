@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import Icon from "../components/Icon";
+import Icon, { IconProps } from "../components/Icon";
 import gruvbox from "../theme/colors";
 
 import Today from "../pages/Home/Today";
@@ -46,7 +46,7 @@ interface TabBarIconSetupProps {
   color?: string;
 }
 function TabBarIconSetup({ routeName, focused, color }: TabBarIconSetupProps) {
-  let iconName: any = "home";
+  let iconName: IconProps["name"] = "home";
 
   if (routeName == "Today") iconName = "home";
   else if (routeName == "Habits") iconName = "sun";
