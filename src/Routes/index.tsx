@@ -1,7 +1,6 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Header from "../components/Header";
 import { StatusBar } from "expo-status-bar";
 
 // Components
@@ -14,6 +13,7 @@ import EditHabit from "../pages/Edit/Habit";
 import EditTask from "../pages/Edit/Task";
 import EditChecklist from "../pages/Edit/Task";
 
+import Header from "../components/Header";
 
 const Stack = createNativeStackNavigator();
 
