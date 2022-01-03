@@ -1,6 +1,6 @@
 import Box from "../../components/Box";
 import Text from "../../components/Text";
-import ButtonPrimaryCallback from "../../components/ButtonPrimaryCallback";
+import ButtonPrimaryCallback from "../../components/Buttons/PrimaryCallback";
 
 export default function CreateType({ navigation }: any) {
   function handleSelect(type: "Habit" | "Task" | "Checklist") {

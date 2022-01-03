@@ -1,6 +1,6 @@
 import Box from "../../components/Box";
 import Text from "../../components/Text";
-import ButtonPrimaryCallback from "../../components/ButtonPrimaryCallback";
+import ButtonPrimaryCallback from "../../components/Buttons/PrimaryCallback";
 import { useHeaderTitle } from "../../contexts/HeaderTitle";
 
 export default function Today({ navigation }: any) {
