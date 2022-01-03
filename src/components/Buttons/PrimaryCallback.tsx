@@ -1,8 +1,8 @@
 import { TouchableOpacity } from "react-native";
-import Box from "./Box";
-import Text from "./Text";
-import Icon, { IconProps } from "./Icon";
-import gruvbox from "../theme/colors";
+import Box from "../Box";
+import Text from "../Text";
+import Icon, { IconProps } from "../Icon";
+import gruvbox from "../../theme/colors";
 
 interface ButtonPrimaryCallbackProps {
   text: string,
